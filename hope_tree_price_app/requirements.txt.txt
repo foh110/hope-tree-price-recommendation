@@ -1,0 +1,9 @@
+# 核心依赖（按代码实际导入顺序排列）
+streamlit>=1.30.0  # 网页部署核心
+pandas>=2.0.0      # 数据读取与处理
+numpy>=1.24.0      # 数值计算
+matplotlib>=3.7.0  # 可视化图表
+pygam>=0.8.0       # GAM/PoissonGAM模型训练
+scipy>=1.10.0      # 统计计算（KDE密度、Shapiro检验）
+joblib>=1.2.0      # 模型保存与加载
+openpyxl>=3.1.0    # 读取Excel文件（多表分析时必需）
